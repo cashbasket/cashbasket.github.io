@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
 	<meta charset="UTF-8">
-	<title>Ryan Machan</title>
+	<title>Ryan Machan &ndash; Contact</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -21,11 +21,24 @@
 	</header>
 	<div class="container site-content">
 		<section id="main">
-			<h2>About Me</h2>
-			<img src="assets/images/ryan.jpg" class="bio-image" alt="Photo of Ryan Machan" />
-			<p><strong>Ryan Machan</strong> is a professional web developer from Cleveland, Ohio, with over fifteen years of experience designing and developing websites and web applications. He is also a grammar enthusiast, so if you notice any grammatical mistakes in this bio, please <a href="contact.html">send him a message</a> at once.</p>
-			<p>Back in the early-ish days of the Internet, Ryan learned a few HTML tags from a high school classmate, and once he figured out how the heck to sign up for an <a href="https://en.wikipedia.org/wiki/Angelfire" target="_blank">Angelfire</a> account (Ryan is getting old), he immediately tried them out on his own. Since then, he has spent countless hours building websites and generally messing around with code. It can be a frustrating undertaking, but he wouldn't trade it for the world.</p>
-			<p>In his spare time, Ryan enjoys your typical nerd fare: heavy metal music, horror movies, and video games, with a nice helping of sci-fi on the side. He is also an avid watcher of football, and would rather not discuss the NFL team he is supposed to be rooting for.</p>
+			<h2>Contact</h2>
+			<form>
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" required />
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required />
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea id="message" name="message" required></textarea>
+				</div>
+				<div class="form-group">
+					<button id="submit" type="submit">Submit</button>
+				</div>
+			</form>
 		</section>
 		<aside id="connect">
 			<h2>Connect with Me</h2>
