@@ -310,6 +310,9 @@ footer p {
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
+.portfolio-section img {
+  margin-bottom: 40px;
+}
 img::selection {
   background: transparent;
 }
