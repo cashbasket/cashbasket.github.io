@@ -273,7 +273,8 @@ a:focus {
 }
 
 .portfolio-section,
-.skills-section {
+.skills-section,
+.contact-section {
 	width: 100%;
 	padding: 50px 0;
 	color: white;
@@ -311,6 +312,9 @@ a:focus {
 	.portfolio-section,
 	.skills-section {
 		padding: 100px 0;
+	}
+	.contact-section {
+		padding: 200px 0;
 	}
 	#map {
 		height: 400px;
@@ -364,7 +368,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-	padding: 50px 0;
+	padding: 25px 0;
 }
 
 footer p {
@@ -402,4 +406,8 @@ body {
 .white {
 	color: #fff;
 	font-size: 36px;
+}
+
+.contact-section {
+	background: url(../img/old-phone.jpg) no-repeat bottom center scroll;
 }
